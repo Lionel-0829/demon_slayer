@@ -9,9 +9,12 @@ import wp from '../../assets/Footer/wp.png'
 function Footer() {
   return (
     <>
-      <footer>
-
-      </footer>
+        <div className="img-contenedor">
+          <img src={fb} alt="Facebook" />
+          <img src={ig} alt="Instagram" />
+          <img src={tw} alt="Twitter" /> 
+          <img src={wp} alt="WhatsApp" />
+        </div>
     </>
   );
 }
